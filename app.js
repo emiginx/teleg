@@ -15,11 +15,6 @@ async function setHook() {
   
 setHook();
 
-app.get("/",(req,res)=>{{ 
-    res.json({
-        message: "Server working correctly"
-    });
- }})
 
 bot.on("text", ctx => ctx.reply("Hello"));
 
