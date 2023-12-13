@@ -2,7 +2,7 @@ const express = require("express");
 const Telegraf = require("telegraf").Telegraf;
 
 const port = 3000;
-const webhookDomain = "https://teleg.vercel.app";
+const webhookDomain = "https://teleg-b246.vercel.app/";
 const token = "6925511753:AAFmnuS44oCILYgYP9iNN1p0HBPPb_UcXN8";
 
 const bot = new Telegraf(token);
